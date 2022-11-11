@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="light dark">
+   <meta name="supported-color-schemes" content="light dark">
+	<title>HTML Email Template Project</title>
+   <style type="text/css">
+   	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+      table {
+         border-spacing: 0;
+      }
+      td {
+         padding: 0;
+      }
+      p {
+         font-size: 15px;
+      }
+      img {
+         border: 0;
+      }
+      a {
+         color: #e8fbfa;
+         text-decoration: none;
+      }
+
+		@media screen and (max-width: 599.98px) {
+         .banner {
+            height: auto!important;
+            padding-top: 40px!important;
+            padding-bottom: 60px!important;
+         }
+         .two-columns .padding,
+         .two-third-columns .padding,
+         .three-columns .padding {
+            padding-right: 0!important;
+            padding-left: 0!important;
+         }
+         img.two-col-img {
+            width: 300px!important;
+            max-width: 300px!important;
+         }
+         .two-third-columns .padding.first {
+            padding-bottom: 0!important;
+         }
+         .two-third-columns .padding.last {
+            padding-top: 0!important;
+         }
+         img.one-third-col-img,
+         img.three-col-img-last {
+            width: 200px!important;
+            max-width: 200px!important;
+         }
+         .two-third-columns .content {
+            text-align: center!important;
+         }
+      }
+      @media screen and (max-width: 399.98px) {
+         .banner {
+            padding-top: 10px!important;
+            padding-bottom: 40px!important;
+         }
+         img.three-col-img {
+            width: 200px!important;
+            max-width: 200px!important;
+         }
+      }
+
+      /* Custom Dark Mode Colors */
+      :root {
+         color-scheme: light dark;
+         supported-color-schemes: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+         body, center, table {
+            background: #2d2d2d!important;
+            color: #ffffff!important;
+         }
+         .darkmode-transparent {
+            background-color: transparent!important;
+         }
+      }
+   </style>
+   
+	<!--[if (gte mso 9)|(IE)]>
+		<style type="text/css">
+			table {border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+<body style="Margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         body {background-color:#dde0e1!important;}
+         body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
+      </style>
+   <![endif]-->
+
+   <center style="width: 100%;table-layout: fixed;background-color:#dde0e1;padding-bottom: 40px;">
+      <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+
+         <!-- Preheader (remove comment) -->
+         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+            <!-- Add Preheader Text Here (85-100 characters in length) -->
+         </div>
+         <!-- End Preheader (remove comment) -->
+
+         <!--[if (gte mso 9)|(IE)]>
+            <table width="600" align="center" style="border-spacing:0;color:#565656;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+         <table align="center" style="border-spacing:0;color:#565656;font-family: 'Lato', sans-serif, Arial, Helvetica!important;background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 600px;" role="presentation">
+
+
+<!-- START SOCIAL ICONS -->
+            <tr>
+               <td style="padding: 0;">
+                  <table width="100%" style="border-spacing: 0;background-color: #565656;" role="presentation">
+
+                     <tr>
+                        <td height="3" style="background-color: #b68448;"></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: center;padding: 10px 0 8px 0;">
+                        
+                           <a href="https://facebook.com/beanbastardcoffee" target="_blank"><img src="https://i.ibb.co/bPLzh61/circle-facebook.png"  alt="Facebook Page" title="Facebook" width="32" border="0"></a>
+                           <a href="https://twitter.com/bean_bastard" target="_blank"><img src="https://i.ibb.co/sRH7TK2/circle-twitter.png"  alt="Twitter Page" width="32" border="0"></a>
+                           <a href="https://instagram.com/beanbastardcoffee" target="_blank"><img src="https://i.ibb.co/x8G1NMz/circle-instagram.png"  alt="Instagram Page" width="32" border="0"></a>
+                        
+                        </td>
+                     </tr>
+                     <tr>
+                        <td height="3" style="background-color: #b68448;"></td>
+                     </tr>
+
+                  </table>
+               </td>
+            </tr>
+<!-- END SOCIAL ICONS -->
+
+<!-- START LOGO -->
+            <tr>
+               <td style="padding: 0;">
+                  <table width="100%" style="border-spacing: 0;background-color: #fafdfe;" role="presentation">
+
+                     <tr>
+                        <td style="padding: 20px 0 20px 0;text-align: center;">
+                           <a href="https://thebeanbastard.com" target="_blank"><img src="https://i.ibb.co/bP2gHgY/BB-HTML-EMAIL.png" alt="Bean Bastard Website" width="400" border="0"></a>
+                        </td>
+                     </tr>
+
+                  </table>
+               </td>
+            </tr>
+<!-- END LOGO -->
+
+<!-- START BANNER -->
+            <tr>
+               <td class="banner" background="https://i.ibb.co/dKMD0Mv/BB4k.gif" alt="Coffee Gif" width="600" height="332" style="background-position: center; padding-bottom: 15px;">
+
+                  <!--[if (gte mso 9)|(IE)]>
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:332px;">
+                     <v:fill type="tile" src="https://i.ibb.co/hMhVbjT/stats2.gif" />
+                     <v:textbox inset="0,0,0,0">
+                  <![endif]-->
+
+                  <table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
+                     <tr>
+                        <td width="600" align="center" valign="middle">
+                           <table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
+
+                              <tr>
+                                 <td align="center">
+                                    <table class="darkmode-transparent" role="presentation">
+                                       <tr>
+
+                                       <!--[if (gte mso 9)|(IE)]>
+                                          <td style="padding-top:100px;padding-bottom:25px;">
+                                       <![endif]-->
+
+                                          <td align="center" style="font-size:30px;line-height:30px;color:#ffffff;padding: 10px 10px 260px 10px;font-weight:bold;">
+                                             <p style="font-size:30px;line-height:30px;color:#ffffff;font-weight:bold;">
+                                                </p>
+                                          </td>
+
+                                       <!--[if (gte mso 9)|(IE)]>
+                                          </td>
+                                       <![endif]-->
+
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center">
+                                    <table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
+                                       <tr>
+                                          <td style="border-radius: 10px;" bgcolor="#eff8fe">
+                                             <a href="https://www.thebeanbastard.com/pages/franchise-with-us" target="_blank" style="font-size: 17px; font-weight: bold;text-decoration:none;color:#eff8fe;background-color: #f01b25;border:1px solid #eff8fe;border-radius: 8px; padding: 8px 20px; display: inline-block;">Franchise with us!</a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+
+                  <!--[if (gte mso 9)|(IE)]>
+                     </v:textbox>
+                     </v:rect>
+                  <![endif]-->
+
+               </td>
+            </tr>
+<!-- END BANNER -->
+
+<!-- START TWO COLUMNS -->
+            <tr>
+               <td style="padding: 35px 0 30px 0;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="two-columns" style="padding: 0;font-size: 0;text-align: center;">
+
+                           <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0;text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="mailto:littlebdistribution@gmail.com" target="_blank"><img class="two-col-img" src="https://i.ibb.co/cw2jFQp/Circle-V2-black.png" alt="Mojo Blend" width="260" height="258" style="max-width: 260px;border-radius: 8px;" border="0"></a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px 10px 20px 10px;">
+                                             <p style="font-size: 17px;font-weight: bold;line-height: 25px;">Wholesale Roaster</p>
+                                             <p style="font-size: 15px;line-height: 20px;">Need fresh roasted coffee for your cafe, restaurant, or business?  Search no further, and reach out today about our wholesale programs, autoship, custom blends, and more!</p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td align="left" style="padding-left: 10px;">
+                                             <table align="left" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+
+                                                   <td style="border-radius: 10px;" bgcolor="#1e5d7b">
+                                                      <a href="mailto:littlebdistribution@gmail.com" target="_blank" style="font-size: 16px; font-weight: bold;text-decoration:none;color:#ffffff;background-color: #f01b25;border:1px solid #f01b25;border-radius: 10px;padding: 10px 25px;display: inline-block;">Email Us!</a>
+                                                   </td>
+
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if (gte mso 9)|(IE)]>
+                           </td><td width="300" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 300px;display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 20px;">
+
+                                    <table class="content" style="border-spacing: 0;text-align: left;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="mailto:littlebdistribution@gmail.com" target="_blank"><img class="two-col-img" src="https://i.ibb.co/vXQ74y8/IMG-0962.jpg" alt="Co Branded Roasts" width="260" style="max-width: 260px;border-radius: 8px;" border="0"></a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px 10px 20px 10px;">
+                                             <p style="font-size: 17px;font-weight: bold;line-height: 25px;">Co Branded Roasts</p>
+                                             <p style="font-size: 15px;line-height: 20px;">Looking to add Coffee to your product line?  Calling all Bands, Artists, Streamers, Businesses, Fundraisers.  Reach out today, for more info! </p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td align="left" style="padding-left: 10px;">
+                                             <table align="left" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+
+                                                   <td style="border-radius: 10px;" bgcolor="#1e5d7b">
+                                                      <a href="mailto:littlebdistribution@gmail.com" target="_blank" style="font-size: 16px; font-weight: bold;text-decoration:none;color:#ffffff;background-color: #f01b25;border:1px solid #f01b25;border-radius: 10px;padding: 10px 25px;display: inline-block;">Get Started</a>
+                                                   </td>
+
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END TWO COLUMNS -->
+
+<!-- START TWO THIRDS COLUMNS -->
+            <tr>
+               <td style="padding: 10px 0 10px 0;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="two-third-columns" style="padding: 0;font-size: 0;text-align: center;background-color: #d3ba97;">
+
+                           <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="200" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 200px;display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding first" style="padding: 15px 20px 15px 20px;background-color: #d3ba97;">
+
+                                    <table class="content darkmode-transparent" style="border-spacing: 0;text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="https://thebeanbastard.com" target="_blank"><img class="one-third-col-img" src="https://i.ibb.co/nBWxwsV/Little-B-Window.png" alt="Company Website" width="160" style="max-width: 160px; border-radius: 50px;" border="0"></a>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if (gte mso 9)|(IE)]>
+                           </td><td width="400" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 400px;display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding last" style="padding: 30px 10px 15px 10px;background-color: #d3ba97;">
+
+                                    <table class="content" style="border-spacing: 0;text-align: left;" role="presentation">
+                                       <tr>
+                                          <td style="vertical-align: middle;padding: 0 10px 0 10px;background-color: #d3ba97;">
+                                             <p style="font-size:14px;color:#43413f;letter-spacing: .2px;font-weight: 300;line-height: 20px;">
+                                                "Bean Bastard was born from adversity, struggle, and hardship. Bested by the willingness & strength to rise up, with the help of others, paying it forward to others, all while getting blitzed AF on coffee (obviously).
+
+                                                Here's to grabbing life by the beans. Yes, have some! "</p>
+                                             <p style="font-size:14px;color:#43413f;letter-spacing: .2px;font-weight: 300;line-height: 20px;">-Little B.</p>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END TWO THIRDS COLUMNS -->
+
+<!-- START THREE COLUMNS -->
+            <tr>
+               <td style="padding: 30px 0 40px 0;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td class="three-columns" style="padding: 0;font-size: 0;text-align: center;">
+
+                           <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="200" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 200px;display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 15px;">
+
+                                    <table class="content" style="border-spacing: 0;text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="mailto:littlebdistribution@gmail.com" target="_blank"><img class="three-col-img" src="https://i.ibb.co/3SgFgrB/IMG-0959.jpg" alt="Roaster Picture" width="150" style="max-width: 150px;border-radius: 5px;" border="0"></a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px 10px 119px 10px;">
+                                             <p style="font-size: 17px;font-weight: bold;line-height: 20px;">ROAST OUR OWN!</p>
+                                             <p style="font-size: 15px;line-height: 20px;">We roast and source our own green coffee.  That way we have 100% control of the quality and what comes in and leaves our Roastery.</p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td align="center">
+                                             <table align="center" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+
+                                                   <td style="border-radius: 10px;" bgcolor="#dde0e1">
+                                                      <a href="mailto:littlebdistribution@gmail.com" target="_blank" style="font-size: 15px; font-weight: bold;text-decoration:none;color:#ffffff;background-color: #f01b25;border:1px solid #f01b25;border-radius: 10px;padding: 8px 20px;display: inline-block;">Learn more..</a>
+                                                   </td>
+
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if (gte mso 9)|(IE)]>
+                           </td><td width="200" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 200px;display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 15px;">
+
+                                    <table class="content" style="border-spacing: 0;text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="mailto:littlebdistribution@gmail.com" target="_blank"><img class="three-col-img" src="https://i.ibb.co/F8Rmvcz/ecommerce.jpg" alt="Ecom Logo" width="150" style="max-width: 150px;border-radius: 5px;" border="0"></a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px 10px 99px 10px;">
+                                             <p style="font-size: 17px;font-weight: bold;line-height: 20px;">ECOM SUPPORT</p>
+                                             <p style="font-size: 15px;line-height: 20px;">If you're a wholesale, franchise, or co-branded partner. Our roasting facility can help facilitate/fulfill your online orders when on hand inventory is low. </p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td align="center">
+                                             <table align="center" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+
+                                                   <td style="border-radius: 10px;" bgcolor="#1e5d7b">
+                                                      <a href="mailto:littlebdistribution@gmail.com" target="_blank" style="font-size: 15px; font-weight: bold;text-decoration:none;color:#ffffff;background-color: #f01b25;border:1px solid #f01b25;border-radius: 10px;padding: 8px 20px;display: inline-block;">Learn more..</a>
+                                                   </td>
+
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if (gte mso 9)|(IE)]>
+                           </td><td width="200" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                           <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 200px;display: inline-block;" role="presentation">
+                              <tr>
+                                 <td class="padding" style="padding: 15px;">
+
+                                    <table class="content" style="border-spacing: 0;text-align: center;" role="presentation">
+                                       <tr>
+                                          <td>
+                                             <a href="mailto:littlebdistribution@gmail.com" target="_blank"><img class="three-col-img three-col-img-last" src="https://i.ibb.co/Wx0dQH8/IMG-0964.jpg" alt="Product Photo" width="140" style="max-width: 150px;border-radius: 5px;" border="0"></a>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td style="padding: 10px 10px 20px 10px;">
+                                             <p style="font-size: 17px;font-weight: bold;line-height: 20px;">AWARD WINNING BRANDING</p>
+                                             <p style="font-size: 15px;line-height: 20px;">Our branding and company message is like no other alongside a phenominal product. Whether you're looking to franchise or just use our roasting services let us earn and show you how great a partnership with us can be!</p>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td align="center">
+                                             <table align="center" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                                                <tr>
+
+                                                   <td style="border-radius: 10px;" bgcolor="#dde0e1">
+                                                      <a href="mailto:littlebdistribution@gmail.com" target="_blank" style="font-size: 15px; font-weight: bold;text-decoration:none;color:#ffffff;background-color: #f01b25;border:1px solid #f01b25;border-radius: 10px;padding: 8px 20px;display: inline-block;">Learn more..</a>
+                                                   </td>
+
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 
+                                 </td>
+                              </tr>
+                           </table>
+
+                           <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+                        </td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END THREE COLUMNS -->
+
+<!-- START FOUR COLUMNS -->
+<!-- END FOUR COLUMNS -->
+
+<!-- START GREEN BORDER -->
+            <tr>
+               <td style="padding: 0;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                     <tr>
+                        <td height="3" style="background-color: #b68448;"></td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+<!-- END GREEN BORDER -->
+
+<!-- START FOOTER -->
+            <tr>
+               <td style="padding: 0;background-color: #565656;">
+                  <table width="100%" style="border-spacing: 0;" role="presentation">
+
+                     <tr>
+                        <td style="padding: 60px 0 50px 0;color: #ffffff;text-align: center;font-size: 16px;">
+                        
+                           <a href="https://example.com" target="_blank"><img src="https://i.ibb.co/bP2gHgY/BB-HTML-EMAIL.png" alt="" width="210" border="0"></a>
+                           <p style="font-size: 16px;padding-bottom: 5px;">448 Elmwood Ave. Unit 1<br>Buffalo, NY 14222</p>
+                           <p style="font-size: 16px;padding-bottom: 5px;"><a href="mailto:beanbastardcoffee@gmail.com" style="text-decoration:none;color:#e8fbfa;">beanbastardcoffee@gmail.com</a></p>
+                           <p style="font-size: 16px;padding-bottom: 5px;"><a href="tel:7163422880" style="text-decoration:none;color:#e8fbfa;">716.342.2880</a></p>
+                           <p style="font-size: 13px;"><a href="https://example.com" style="text-decoration:none;color:#e8fbfa;">UNSUBSCRIBE</a></p>
+                        
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td height="4" style="background-color: #b68448;"></td>
+                     </tr>
+
+                  </table>
+               </td>
+            </tr>
+<!-- END FOOTER -->
+
+
+         </table>
+
+         <!--[if (gte mso 9)|(IE)]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+
+         
+      </div>
+   </center>
+
+</body>
+</html>
